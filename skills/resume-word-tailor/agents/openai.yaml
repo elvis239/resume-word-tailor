@@ -1,0 +1,6 @@
+interface:
+  display_name: "简历匹配与Word母版编辑"
+  short_description: "按岗位JD调整真实简历内容，沿用指定Word母版并核对正文、格式和分页"
+  default_prompt: "使用 $resume-word-tailor，根据这个JD调整我的简历，并按指定Word母版生成可编辑文件。"
+policy:
+  allow_implicit_invocation: true
